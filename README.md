@@ -1,6 +1,6 @@
 # Ansible Controller
 
-Docker Image based on Ubuntu 16.04 preinstalled with ansible
+Docker Image mit vorinstalliertem und vorkonfiguriertem Ansible.
 
 
 ## Additional Software packages
