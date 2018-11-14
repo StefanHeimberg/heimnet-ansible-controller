@@ -5,7 +5,7 @@ Docker Image mit vorinstalliertem und vorkonfiguriertem Ansible.
 
 ## Additional Software packages
 
-- VMware-ovftool-4.2.0-5965791
+- VMware-ovftool-4.3.0-10104578
 - apt packages:
   - software-properties-common
   - python-pip
@@ -22,5 +22,13 @@ Docker Image mit vorinstalliertem und vorkonfiguriertem Ansible.
 ```
 docker run \
     --interactive --tty --rm  \
-    nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.0 /bin/bash
+    nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.1 /bin/bash
 ```
+
+## Release-Notes
+
+18.04-1.1
+- OVF Tool update von 4.2.x auf 4.3.x
+
+18.04-1.0
+- Erste Version
