@@ -5,5 +5,5 @@ cd $SCRIPT_DIR
 
 set -e
 
-docker build -t nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.1 docker
-docker run nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.1
+docker build -t nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.2 docker
+docker run nas.heimnet.ch:5000/heimnet-ansible-controller:18.04-1.2
