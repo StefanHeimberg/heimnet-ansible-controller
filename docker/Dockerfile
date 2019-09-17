@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 USER root
 
-ADD ./VMware-ovftool-4.3.0-10104578-lin.x86_64.bundle /
+ADD ./VMware-ovftool-4.3.0-13981069-lin.x86_64.bundle /
 
 RUN apt-get update -y && \
     apt-get install -y software-properties-common && \
@@ -14,8 +14,8 @@ RUN apt-get update -y && \
     apt-get update -y && \
     apt-get install -y python-pip ansible git && \
     pip install --upgrade pip pyvmomi dnspython && \
-    chmod 755 /VMware-ovftool-4.3.0-10104578-lin.x86_64.bundle && \
-    /VMware-ovftool-4.3.0-10104578-lin.x86_64.bundle --console --eulas-agreed --required && \
+    chmod 755 /VMware-ovftool-4.3.0-13981069-lin.x86_64.bundle && \
+    /VMware-ovftool-4.3.0-13981069-lin.x86_64.bundle --console --eulas-agreed --required && \
     apt-get clean -y && \
     apt-get autoclean -y && \
     apt-get autoremove -y && \
